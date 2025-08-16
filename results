@@ -1,0 +1,53 @@
+sample test outputs that i have obtained:
+
+test_1:
+{'aspect_ratio': {'status': 'pass', 'actual': '1.50'},
+ 'colors': {'saffron': {'status': 'pass', 'deviation': '0%'},
+  'white': {'status': 'pass', 'deviation': '0%'},
+  'green': {'status': 'pass', 'deviation': '0%'},
+  'chakra_blue': {'status': 'pass', 'deviation': '3%'}},
+ 'stripe_proportion': {'status': 'pass',
+  'top': '0.33',
+  'middle': '0.33',
+  'bottom': '0.33'},
+ 'chakra_position': {'status': 'pass', 'offset_x': '0px', 'offset_y': '0px'},
+ 'chakra_spokes': {'status': 'pass', 'detected': 24}}
+
+test_2:
+{'aspect_ratio': {'status': 'pass', 'actual': '1.50'},
+ 'colors': {'saffron': {'status': 'pass', 'deviation': '0%'},
+  'white': {'status': 'pass', 'deviation': '0%'},
+  'green': {'status': 'pass', 'deviation': '0%'},
+  'chakra_blue': {'status': 'pass', 'deviation': '2%'}},
+ 'stripe_proportion': {'status': 'pass',
+  'top': '0.33',
+  'middle': '0.33',
+  'bottom': '0.34'},
+ 'chakra_position': {'status': 'pass', 'offset_x': '0px', 'offset_y': '0px'},
+ 'chakra_spokes': {'status': 'pass', 'detected': 24}}
+
+test_3:
+{'aspect_ratio': {'status': 'fail', 'actual': '1.33'},
+ 'colors': {'saffron': {'status': 'pass', 'deviation': '0%'},
+  'white': {'status': 'pass', 'deviation': '0%'},
+  'green': {'status': 'pass', 'deviation': '0%'},
+  'chakra_blue': {'status': 'pass', 'deviation': '3%'}},
+ 'stripe_proportion': {'status': 'pass',
+  'top': '0.33',
+  'middle': '0.33',
+  'bottom': '0.33'},
+ 'chakra_position': {'status': 'pass', 'offset_x': '0px', 'offset_y': '0px'},
+ 'chakra_spokes': {'status': 'pass', 'detected': 24}}
+
+test_4:
+{'aspect_ratio': {'status': 'pass', 'actual': '1.50'},
+ 'colors': {'saffron': {'status': 'pass', 'deviation': '0%'},
+  'white': {'status': 'pass', 'deviation': '0%'},
+  'green': {'status': 'pass', 'deviation': '0%'},
+  'chakra_blue': {'status': 'pass', 'deviation': '3%'}},
+ 'stripe_proportion': {'status': 'pass',
+  'top': '0.33',
+  'middle': '0.33',
+  'bottom': '0.33'},
+ 'chakra_position': {'status': 'pass', 'offset_x': '0px', 'offset_y': '0px'},
+ 'chakra_spokes': {'status': 'fail', 'detected': 20}}
