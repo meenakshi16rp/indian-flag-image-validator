@@ -33,4 +33,4 @@ test_3.png: ❌ 4:3 ratio instead of 3:2 --> expected result: Aspect ratio fails
 test_4.png: ❌ 20 spokes instead of 24 -->  expected result: Spoke count fails (WRONG SPOKE COUNT)
 
 
-## Developed for the Indian Independence Day Coding Challenge
+## Developed for the Indian Independence Day Coding Challenge (MINOR IN AI- IIT ROPAR)
